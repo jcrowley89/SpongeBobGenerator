@@ -30,7 +30,7 @@ namespace SpongeBobGenerator
                     }
                     else
                     {
-                        Console.Write(input[i]);
+                        Console.Write(char.ToLower(input[i]));
                     }
                 }
 
