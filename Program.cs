@@ -8,7 +8,9 @@ namespace SpongeBobGenerator
         {
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("SpOnGeBoB tExT gEnErAtOr v1.0.0\nby John Crowley");
+            Console.WriteLine("|----------------------------------------------------|");
+            Console.WriteLine("|  SpOnGeBoB tExT gEnErAtOr v1.0.0 by John Crowley   |");
+            Console.WriteLine("|----------------------------------------------------|\n");
             Console.ResetColor();
 
             Console.ForegroundColor = ConsoleColor.Yellow;
