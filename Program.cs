@@ -11,26 +11,28 @@ namespace SpongeBobGenerator
             Console.WriteLine("SpOnGeBoB tExT gEnErAtOr v1.0.0\nby John Crowley");
             Console.ResetColor();
 
-            while (true) {
+            while (true)
+            {
 
-            Console.WriteLine("\nEnter text: ");
+                Console.WriteLine("\nEnter text: ");
 
-            string input = Console.ReadLine();
+                string input = Console.ReadLine();
 
                 Console.WriteLine();
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
 
-            for (var i = 0; i < input.Length; i++)
-            {
-                if (i % 2 == 0)
+                for (var i = 0; i < input.Length; i++)
                 {
-                    Console.Write(char.ToUpper(input[i]));
+                    if (i % 2 == 0)
+                    {
+                        Console.Write(char.ToUpper(input[i]));
+                    }
+                    else
+                    {
+                        Console.Write(input[i]);
+                    }
                 }
-                else {
-                    Console.Write(input[i]);
-                }
-            }
 
                 Console.ResetColor();
 
